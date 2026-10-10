@@ -16,9 +16,17 @@ La tabla se actualiza al cerrar cada proyecto.
 
 Cada proyecto sigue tres fases:
 
-1. Planificación: acta, objetivos SMART, EDT y cronograma en Mermaid, que queda como línea base.
-2. Ejecución: un issue por paquete de trabajo, gestionado en GitHub Projects, con código revisado mediante pull requests.
-3. Seguimiento y cierre: comparación de la línea base con el avance real, lecciones aprendidas y una versión 1.0.0 publicada.
+1. Planificación: acta, objetivos SMART, EDT y cronograma. La línea base se fija en Microsoft Project; el repositorio guarda un Gantt en Mermaid como vista resumida.
+2. Ejecución: un issue por paquete de trabajo, gestionado en GitHub Projects, con código revisado mediante pull requests. Cuando el problema lo pide, la arquitectura y el modelo de datos se diagraman en Visio y el proceso de negocio actual y propuesto se modela en BPMN 2.0 con Bizagi Modeler.
+3. Seguimiento y cierre: comparación de la línea base con el avance real en Project, desvíos explicados, lecciones aprendidas y una versión 1.0.0 publicada.
+
+Además del código, cada repositorio publica los entregables de gestión y diseño que apliquen:
+
+| Entregable | Herramienta | Carpeta |
+|---|---|---|
+| Cronograma con línea base y seguimiento | Microsoft Project | `gestion/cronograma/` |
+| Arquitectura y modelo de datos | Microsoft Visio | `docs/diagramas/` |
+| Proceso actual y propuesto (BPMN 2.0) | Bizagi Modeler | `docs/procesos/` |
 
 Todos los repositorios parten de la plantilla [plantilla-proyecto-datos](https://github.com/josecaychoa/plantilla-proyecto-datos). Usa Python 3.13 gestionado con uv, pruebas con pytest y revisión con ruff en GitHub Actions. El SQL se escribe primero para Oracle y los tableros de Power BI se guardan en formato PBIP.
 
