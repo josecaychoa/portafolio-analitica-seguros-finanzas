@@ -1,6 +1,6 @@
 # Portafolio de analítica de datos · seguros y finanzas del Perú
 
-José Caycho A. · Business Analyst Senior · Procesos · Datos
+José Caycho A. · Business Analyst Senior y DBA · Procesos · Datos
 
 Índice de los proyectos de mi portafolio personal. Cada mes publico un proyecto con datos públicos (SBS, BCRP y otras entidades oficiales) o sintéticos. Cada uno vive en su propio repositorio y se puede reproducir desde cero. El README de cada proyecto explica el método y las limitaciones, e indica la fuente de cada cifra.
 
@@ -8,7 +8,7 @@ José Caycho A. · Business Analyst Senior · Procesos · Datos
 
 | ID | Proyecto | Datos | Herramientas | Estado | Repositorio |
 |---|---|---|---|---|---|
-| PF-01 | Producción y siniestralidad por riesgo del mercado asegurador peruano, 2019-2026 | SBS, Boletín Mensual (S-367) | Python, Oracle AI Database 26ai Free, SQL Developer y Power BI (opcional) | En preparación (publicación: 26 de noviembre de 2026) | [pf-01-siniestralidad-sbs](https://github.com/josecaychoa/pf-01-siniestralidad-sbs) |
+| PF-01 | Producción y siniestralidad por riesgo del mercado asegurador peruano, 2019-2026 | SBS, Boletín Mensual (S-367) | Python, Oracle AI Database 26ai Free, SQL Developer y Power BI | En preparación (publicación: 12 de noviembre de 2026) | [pf-01-siniestralidad-sbs](https://github.com/josecaychoa/pf-01-siniestralidad-sbs) |
 
 La tabla se actualiza al cerrar cada proyecto.
 
