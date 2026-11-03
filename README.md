@@ -2,7 +2,7 @@
 
 José Caycho A. · Business Analyst Senior y DBA · Procesos · Datos
 
-Índice de los proyectos de mi portafolio personal. Cada mes publico un proyecto con datos públicos (SBS, BCRP y otras entidades oficiales) o simulados. Cada uno vive en su propio repositorio y se puede reproducir desde cero. El README de cada proyecto explica el método y las limitaciones, e indica la fuente de cada cifra.
+Índice de los proyectos de mi portafolio personal. Periodicamente publicaré un proyecto con datos públicos (SBS, BCRP y otras entidades oficiales) o simulados. Cada uno vive en su propio repositorio y se puede reproducir desde cero. El README de cada proyecto explica el método y las limitaciones, e indica la fuente de cada cifra.
 
 ## Proyectos
 
