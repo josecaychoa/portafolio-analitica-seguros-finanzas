@@ -2,13 +2,13 @@
 
 José Caycho A. · Business Analyst Senior y DBA · Procesos · Datos
 
-Índice de los proyectos de mi portafolio personal. Periodicamente publicaré un proyecto con datos públicos (SBS, BCRP y otras entidades oficiales) o simulados. Cada uno vive en su propio repositorio y se puede reproducir desde cero. El README de cada proyecto explica el método y las limitaciones, e indica la fuente de cada cifra.
+Índice de los proyectos de mi portafolio personal. Periódicamente publicaré un proyecto con datos públicos (SBS, BCRP y otras entidades oficiales) o simulados. Cada uno vive en su propio repositorio y se puede reproducir desde cero. El README de cada proyecto explica el método y las limitaciones, e indica la fuente de cada cifra.
 
 ## Proyectos
 
 | ID | Proyecto | Datos | Herramientas | Estado | Repositorio |
 |---|---|---|---|---|---|
-| PF-01 | Producción y siniestralidad por riesgo del mercado asegurador peruano, 2019-2026 | SBS, Boletín Mensual (S-367) | Python, Oracle AI Database 26ai Free, SQL Developer y Power BI | En preparación (publicación: 12 de noviembre de 2026) | [pf-01-siniestralidad-sbs](https://github.com/josecaychoa/pf-01-siniestralidad-sbs) |
+| PF-01 | Producción y siniestralidad por riesgo del mercado asegurador peruano, 2019-2026 | SBS, Boletín Mensual (S-367) | Python, Oracle AI Database 26ai Free, SQL Developer y Power BI | Terminado (v1.1.0) · publicación en LinkedIn: 12 de noviembre de 2026 | [pf-01-siniestralidad-sbs](https://github.com/josecaychoa/pf-01-siniestralidad-sbs) |
 
 La tabla se actualiza al cerrar cada proyecto.
 
@@ -22,13 +22,15 @@ Cada proyecto sigue tres fases:
 
 Además del código, cada repositorio publica los entregables de gestión y diseño que apliquen:
 
-| Entregable | Herramienta | Carpeta |
+| Entregable | Herramienta | Carpeta (ejemplo en PF-01) |
 |---|---|---|
-| Cronograma con línea base y seguimiento | Microsoft Project | `gestion/cronograma/` |
-| Arquitectura y modelo de datos | Microsoft Visio | `docs/diagramas/` |
-| Proceso actual y propuesto (BPMN 2.0) | Bizagi Modeler | `docs/procesos/` |
+| Cronograma con línea base y seguimiento | Microsoft Project | [`gestion/cronograma/`](https://github.com/josecaychoa/pf-01-siniestralidad-sbs/tree/main/gestion/cronograma) |
+| Arquitectura y modelo de datos | Microsoft Visio | [`docs/diagramas/`](https://github.com/josecaychoa/pf-01-siniestralidad-sbs/tree/main/docs/diagramas) |
+| Proceso actual y propuesto (BPMN 2.0) | Bizagi Modeler | [`docs/procesos/`](https://github.com/josecaychoa/pf-01-siniestralidad-sbs/tree/main/docs/procesos) |
 
-Todos los repositorios parten de la plantilla [plantilla-proyecto-datos](https://github.com/josecaychoa/plantilla-proyecto-datos). Usa Python 3.13 gestionado con uv, pruebas con pytest y revisión con ruff en GitHub Actions. El SQL se escribe primero para Oracle y los tableros de Power BI se guardan en formato PBIP.
+Todos los repositorios parten de la plantilla [plantilla-proyecto-datos](https://github.com/josecaychoa/plantilla-proyecto-datos). El código se escribe en Python 3.13. Antes de que un cambio entre al repositorio, GitHub ejecuta de forma automática las pruebas y una revisión de calidad del código; si alguna falla, el cambio no se acepta (uv, pytest y ruff en GitHub Actions). El SQL se escribe primero para Oracle y los tableros de Power BI se guardan en formato PBIP.
+
+El avance de todos los proyectos, con sus fases y horas estimadas y reales, se ve en el tablero público [Portafolio Profesional JC 2026-27](https://github.com/users/josecaychoa/projects/1).
 
 ## Reglas de datos
 
