@@ -32,7 +32,7 @@ Todos los repositorios parten de la plantilla [plantilla-proyecto-datos](https:/
 
 ## Reglas de datos
 
-- Solo datos públicos u oficiales, o datos sintéticos declarados como tales.
+- Solo datos públicos u oficiales, o datos simulados declarados como tales.
 - Ningún dato personal real, en cumplimiento de la Ley N.º 29733 y su reglamento (D.S. N.º 016-2024-JUS).
 - Las citas, figuras, tablas y referencias siguen las normas APA (7.ª edición): cita en el texto, como (SBS, 2026); nota bajo cada figura o tabla, como «*Nota.* Elaboración propia con datos de SBS (2026).»; y una sección «Referencias» en cada README e informe.
 - La ortografía sigue las normas de la RAE: punto decimal, millares separados con espacio y porcentajes con espacio (12.5 %).
