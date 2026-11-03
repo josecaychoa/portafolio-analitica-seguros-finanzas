@@ -8,7 +8,7 @@ José Caycho A. · Business Analyst Senior y DBA · Procesos · Datos
 
 | ID | Proyecto | Datos | Herramientas | Estado | Repositorio |
 |---|---|---|---|---|---|
-| PF-01 | Producción y siniestralidad por riesgo del mercado asegurador peruano, 2019-2026 | SBS, Boletín Mensual (S-367) | Python, Oracle AI Database 26ai Free, SQL Developer y Power BI | Terminado (v1.1.0) · publicación en LinkedIn: 12 de noviembre de 2026 | [pf-01-siniestralidad-sbs](https://github.com/josecaychoa/pf-01-siniestralidad-sbs) |
+| PF-01 | Producción y siniestralidad por riesgo del mercado asegurador peruano, 2019-2026 | SBS, Boletín Mensual (S-367) | Python, Oracle AI Database 26ai Free, SQL Developer y Power BI | Publicado (2 de noviembre de 2026) | [pf-01-siniestralidad-sbs](https://github.com/josecaychoa/pf-01-siniestralidad-sbs) |
 
 La tabla se actualiza al cerrar cada proyecto.
 
